@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <Firebase_ESP_Client.h>
 
-#define FIREBASE_HOST "parking-a8066-default-rtdb.firebaseio.com" // Firebase project name address
-#define FIREBASE_AUTH "AIzaSyBmk1bml_S8vHYsHRzibv9aQ6qTypTNyQg" // Firebase secret key
-#define WIFI_SSID "Airbox_5FCA" // Your WiFi name
-#define WIFI_PASSWORD "QKGQG4ab" // WiFi password
+#define FIREBASE_HOST "    " // Firebase project name address
+#define FIREBASE_AUTH "  " // Firebase secret key
+#define WIFI_SSID "  " // Your WiFi name
+#define WIFI_PASSWORD "  " // WiFi password
 #define TRIG_PIN 33 // Replace with your TRIG pin number
 #define ECHO_PIN 25 // Replace with your ECHO pin number
 
