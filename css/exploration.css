@@ -1,0 +1,40 @@
+<style>
+  html {
+    font-family: Arial, sans-serif; 
+    display: inline-block; 
+    text-align: center;
+    background-color: #f2f2f2; /* Set background color */
+  }
+  body {  
+    margin: 0;
+    padding: 0;
+  }
+  .topnav { 
+    overflow: hidden; 
+    background-color: #50B8B4; 
+    color: white; 
+    font-size: 1.2rem; /* Increase font size */
+    padding: 10px; /* Add padding */
+  }
+  .content { 
+    padding: 20px; 
+  }
+  .card { 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust box shadow */
+    transition: 0.3s; /* Add transition */
+    border-radius: 5px; /* Add border radius */
+    padding: 20px; /* Add padding */
+  }
+  .cards { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    display: grid; 
+    grid-gap: 20px; /* Increase grid gap */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid columns */
+  }
+  .reading { 
+    font-size: 1.6rem; /* Increase font size */
+    font-weight: bold; /* Add font weight */
+  }
+</style>
